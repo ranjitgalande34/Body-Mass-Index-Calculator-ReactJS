@@ -1,0 +1,55 @@
+.bmi-calculator {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 95%;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    position:relative;
+    left: 40%;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .result {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #28a745;
+    border-radius: 5px;
+  }
+  
+  .underweight {
+    background-color: #ffc107;
+  }
+  
+  .normalweight  {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .overweight {
+    background-color: #54acbf;
+  }
+  
+  .obese {
+    background-color: #dc3545;
+    color: white;
+  }
+  
